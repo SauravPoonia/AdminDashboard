@@ -1,0 +1,21 @@
+.search-box-container {
+    display: flex;
+  }
+  
+  input[type='text'] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

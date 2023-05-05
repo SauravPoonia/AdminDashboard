@@ -1,0 +1,22 @@
+.breadcrumb-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  
+  li:last-child {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,35 @@
+.third-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 600px;
+    margin: 20px;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5em;
+    color: black;
+    background-color: white;
+    height: calc(50% - 20px);
+    width: calc(50% - 20px);
+    border: 2px solid black;
+  }
+  
+  .box-title {
+    color: #0080ff;
+  }
+  
+  .trends {
+    background-color: white;
+    width: calc(100% - 20px);
+  }
+  
+  .efficiency {
+    background-color: white;
+    width: calc(100% - 20px);
+  }
+  

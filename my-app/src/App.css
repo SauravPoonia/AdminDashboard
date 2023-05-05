@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.breadcrumb-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+li:last-child {
+  font-weight: bold;
+}
+
+.dashboard-container {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    grid-template-columns: 1fr;
+  }
+}
